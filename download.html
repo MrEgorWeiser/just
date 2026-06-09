@@ -9,7 +9,7 @@
     <h1 style="text-align: center;">Welcome to download page!</h1>
 
     <section>
-      <a href="files/sketch1780175389054.png" download>Download</a>
+      <a id="nofiles">Download</a>
     </section>
     
     <section>
@@ -17,5 +17,11 @@
         <a href="index.html">Back to Home</a>
       </nav>
     </section>
+    <script>
+      let nofile = document.getElementById(nofiles);
+      nofile.onclick = function() {
+        alert("Sorry we don't have this file!")
+      };
+    </script>
   </body>
 </html>
