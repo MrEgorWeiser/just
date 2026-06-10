@@ -7,6 +7,12 @@ a {
   color: grey;
 }
 
+h3 {
+  color: antiquewhite;
+  font-style: italic;
+  font-size: larger;
+}
+
 li {
   color: grey;
 }
